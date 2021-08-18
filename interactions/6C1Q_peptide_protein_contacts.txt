@@ -1,0 +1,10 @@
+H	1-6C1Q_refined.A	199 	Pro199 	2-6C1Q_refined.B	6	Trp5 	-4.20	2.79	b-	1	0	6.39		
+H	1-6C1Q_refined.A	261 	Arg261 	2-6C1Q_refined.B	5	ZAL4 	-12.00	2.80	-b	2	0	9.04		
+H	1-6C1Q_refined.A	274 	Cys274 	2-6C1Q_refined.B	5	ZAL4 	-4.40	2.87	bb	1	0	5.00		
+H	1-6C1Q_refined.A	276 	Val276 	2-6C1Q_refined.B	2	Phe1 	-0.60	3.36	bb	1	0	3.17		
+H	1-6C1Q_refined.A	276 	Val276 	2-6C1Q_refined.B	3	ORN2 	-8.10	2.96	bb	2	0	10.04		
+H	1-6C1Q_refined.A	278 	Tyr278 	2-6C1Q_refined.B	1	ACE0 	-3.00	2.80	bb	1	0	6.32		
+H	1-6C1Q_refined.A	344 	Tyr344 	2-6C1Q_refined.B	7	Arg6 	-5.20	2.71	b-	1	0	6.03		
+H	1-6C1Q_refined.A	347 	Thr347 	2-6C1Q_refined.B	7	Arg6 	-3.20	3.05	--	1	0	6.44		
+H	1-6C1Q_refined.A	368 	Asp368 	2-6C1Q_refined.B	6	Trp5 	-8.40	2.80	-b	1	0	4.80		
+IH	1-6C1Q_refined.A	368 	Asp368 	2-6C1Q_refined.B	7	Arg6 	-32.73	2.76	-*	5	0	13.38		

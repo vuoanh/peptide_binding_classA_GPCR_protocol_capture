@@ -1,0 +1,13 @@
+H	1-6OS0_refined.A	8	Asp8 	2-6OS0_refined.B	3	Val524 	-0.60	3.53	-b	1	0	6.50		
+IH	1-6OS0_refined.A	9	Asp9 	2-6OS0_refined.B	1	Asp522 	-34.07	2.76	*b	5	0	41.64		
+H	1-6OS0_refined.A	159	Arg159 	2-6OS0_refined.B	6	His527 	-5.00	2.65	-b	1	0	7.65		
+H	1-6OS0_refined.A	174	Phe174 	2-6OS0_refined.B	4	Tyr525 	-6.40	3.02	bb	2	0	10.52		
+H	1-6OS0_refined.A	176	Tyr176 	2-6OS0_refined.B	1	Asp522 	-0.70	3.23	bb	1	0	7.76		
+H	1-6OS0_refined.A	176	Tyr176 	2-6OS0_refined.B	2	Arg523 	-8.20	2.98	bb	2	0	11.93		
+H	1-6OS0_refined.A	178	Ser178 	2-6OS0_refined.B	1	Asp522 	-2.00	3.06	b-	1	0	6.71		
+IH	1-6OS0_refined.A	189	Lys189 	2-6OS0_refined.B	8	Phe529 	-23.09	2.85	-b	3	0	15.62		
+IH	1-6OS0_refined.A	342	Asp342 	2-6OS0_refined.B	2	Arg523 	-24.08	2.86	--	4	0	12.64		
+IH	1-6OS0_refined.A	360	Asp360 	2-6OS0_refined.B	2	Arg523 	-33.51	3.00	--	6	0	21.22		
+H	1-6OS0_refined.A	360	Asp360 	2-6OS0_refined.B	6	His527 	-3.40	2.79	--	1	0	6.39		
+A	1-6OS0_refined.A	363	Met363 	2-6OS0_refined.B	6	His527 	-0.60	3.76	--	1	0	6.16		
+A	1-6OS0_refined.A	364	Pro364 	2-6OS0_refined.B	6	His527 	-0.70	4.52	--	1	0	6.56		

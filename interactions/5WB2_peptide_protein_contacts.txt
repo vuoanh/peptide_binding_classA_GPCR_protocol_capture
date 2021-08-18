@@ -1,0 +1,9 @@
+H	1-5WB2_refined.A	1	Asp1 	2-5WB2_refined.B	45	Gln466 	-2.00	2.89	--	1	1	8.67		
+I	1-5WB2_refined.A	1	Asp1 	2-5WB2_refined.B	47	Arg468 	-9.23	3.00	--	2	1	19.95		
+I	1-5WB2_refined.A	2	Glu2 	2-5WB2_refined.B	47	Arg468 	-2.88	3.63	--	2	1	8.51		
+H	1-5WB2_refined.A	7	Cys7 	2-5WB2_refined.B	11	Thr432 	-4.10	3.31	bb	2	1	12.80		
+H	1-5WB2_refined.A	9	Phe9 	2-5WB2_refined.B	9	Ala430 	-2.80	3.07	bb	1	1	7.34		
+H	1-5WB2_refined.A	228	Tyr228 	2-5WB2_refined.B	3	Pro424 	-2.40	2.94	-b	1	1	7.95		
+H	1-5WB2_refined.A	254	Lys254 	2-5WB2_refined.B	6	Asn427 	-1.80	3.23	-b	2	1	10.29		
+H	1-5WB2_refined.A	254	Lys254 	2-5WB2_refined.B	8	Cys429 	-4.00	2.50	--	1	1	6.89		
+H	1-5WB2_refined.A	261	Glu261 	2-5WB2_refined.B	2	Leu423 	-1.10	2.59	-b	1	1	4.91		

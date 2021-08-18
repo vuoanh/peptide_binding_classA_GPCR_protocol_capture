@@ -1,0 +1,58 @@
+<ROSETTASCRIPTS>
+    <SCOREFXNS>
+	<ScoreFunction name="score_cst" weights="ref2015" >
+	    <Reweight scoretype="coordinate_constraint" weight="1" />
+	    <Reweight scoretype="atom_pair_constraint" weight="1" />
+	    <Reweight scoretype="dihedral_constraint" weight="1" />
+	    <Reweight scoretype="angle_constraint" weight="1" />
+	</ScoreFunction>
+    </SCOREFXNS>
+    <PACKER_PALETTES>
+	DefaultPackerPalette name="NCAA_expanded" />
+	<CustomBaseTypePackerPalette name="base_ncaa" additional_residue_types="%%res_type%%" />
+    </PACKER_PALETTES>
+    <TASKOPERATIONS>
+	Include rotamer options from the command line
+	<InitializeFromCommandline name="ifcl" />
+	    Design and repack residues based on resfile
+	<ReadResfile name="rrf" filename="%%resf_file%%"/>
+    </TASKOPERATIONS>
+    <MOVERS>
+	FavorNativeResidue name="favor_native" bonus="0.75"/>
+	Design the antibody interface
+	<PackRotamersMover name="design" scorefxn="REF2015" task_operations="ifcl,rrf" packer_palette="base_ncaa"/>
+	    PackRotamersMover name="design" scorefxn="REF2015" task_operations="ifcl,rrf" />
+	    Analyze the resulting interface
+	<InterfaceAnalyzerMover name="analyze" scorefxn="REF2015" packstat="0" pack_input="0" pack_separated="1" fixedchains="A" />
+	<BackrubDD name="backrub" interface_distance_cutoff="6.0">
+	</BackrubDD>
+	<FastRelax name="relax" scorefxn="score_cst" ramp_down_constraints="false" repeats="1" />
+	    Define the covalent bond between two sidechain
+	<PeptideCyclizeMover name="crosslink" >
+	    <Torsion res1="302" res2="302" res3="305" res4="305" atom1="CG" atom2="CD" atom3="NZ" atom4="CE" cst_func="CIRCULARHARMONIC 3.141592654 0.005" />
+	    <Angle res1="302" atom1="CG" res_center="302" atom_center="CD" res2="305" atom2="NZ" cst_func="HARMONIC 2.01000000 0.01" />
+	    <Angle res1="302" atom1="CD" res_center="305" atom_center="NZ" res2="305" atom2="CE" cst_func="HARMONIC 2.14675498 0.01" />
+	    <Distance res1="302" res2="305" atom1="CD" atom2="NZ" cst_func="HARMONIC 1.32865 0.01" />
+	    <Bond res1="302" res2="305" atom1="CD" atom2="NZ" add_termini="true" />
+	</PeptideCyclizeMover>
+    </MOVERS>
+    <FILTERS>
+	<Ddg name="ddg_f" scorefxn="REF2015" threshold="-75" jump="1" repack="false" repeats="1" />
+	<ShapeComplementarity name="sc_f" min_sc="0.5" jump="1" />
+    </FILTERS>
+    <APPLY_TO_POSE>
+    </APPLY_TO_POSE>
+    <PROTOCOLS>
+	Run the design protocol
+	Add mover="favor_native" />
+	<Add mover="design" />
+	<Add mover="crosslink" />
+	    Add mover_name="backrub"/>
+	Add mover_name="relax"/>
+	    Calculate interface metrics for the final sequence
+	<Add mover="analyze" />
+	    Add filter="ddg_f" />
+	    Add filter="sc_f" />
+    </PROTOCOLS>
+    <OUTPUT scorefxn="REF2015" />
+</ROSETTASCRIPTS>

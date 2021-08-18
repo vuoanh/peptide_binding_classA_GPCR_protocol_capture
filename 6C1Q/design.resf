@@ -1,0 +1,7 @@
+NATAA # default is repacking only
+
+start
+
+#* A NOTAA ACDEFGHIKLMNPQRSTVWY # disallow canonical a.a in the design of the peptide (type A)
+2 B PIKAA X[ORN]
+4 B PIKAA X[A01]

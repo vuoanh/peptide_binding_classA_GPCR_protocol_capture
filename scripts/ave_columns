@@ -1,0 +1,7 @@
+#!/bin/sh
+
+if [[ $# -eq 1 ]]; then
+  awk '{if(NR==1){nfstore=NF;for(x=1;x<=NF; ++x){if($x+0 ==$x){AVE[x] = $x}}}else{w_ratio=1.0/(NR+0.0); for(x=1;x<=nfstore; ++x){if($x+0==$x){AVE[x] += w_ratio*($x-AVE[x])}}}} END {for(x=1; x<= nfstore; ++x){printf("%g ",AVE[x])}printf("\n")}' $1
+else
+  awk '{if(NR==1){nfstore=NF;for(x=1;x<=NF; ++x){if($x+0==$x){AVE[x] = $x}}}else{w_ratio=1.0/(NR+0.0); for(x=1;x<=nfstore; ++x){if($x+0==$x){AVE[x] += w_ratio*($x-AVE[x])}}}} END {for(x=1; x<= nfstore; ++x){printf("%g ",AVE[x])}printf("\n")}' 
+fi

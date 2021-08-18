@@ -1,0 +1,17 @@
+#! /bin/csh
+
+if( $#argv != 2 ) then
+echo "Usage: set_residue_b_factor.scr <b_factor_file> <pdbfile>"
+echo "the format of the b_factor_file is residue paired with value"
+echo "1 .50"
+echo "2 .80"
+echo "..."
+echo "n 1.30"
+else
+
+awk -v b_factor_file=$1 -v pdbfile=$2 -f /sb/meiler/scripts/kaufmann_awk/awk_library.txt -f /sb/meiler/scripts/kaufmann_awk/map_residues_values_to_bfactor.awk
+
+#Add successful call to the script usage database
+/sb/meiler/scripts/capture_command.sh "$0" "$*"
+
+endif

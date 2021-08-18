@@ -1,0 +1,4 @@
+IH	1-6DDF_refined.A	689     Asp689 	2-6DDF_refined.B	1	Tyr888 	-21.83	3.04	b-	3	0	13.07		
+H	1-6DDF_refined.A	693     Met693 	2-6DDF_refined.B	1	Tyr888 	-6.60	3.51	*-	2	0	14.27		
+A	1-6DDF_refined.A	690     Tyr690 	2-6DDF_refined.B	4	Phe891 	-0.50	3.77	--	1	0	13.74		
+H	1-6DDF_refined.A	845     Lys845 	2-6DDF_refined.B	4	Phe891 	-0.70	3.46	b-	1	0	13.72		

@@ -1,0 +1,17 @@
+<ROSETTASCRIPTS>
+    <SCOREFXNS>
+    </SCOREFXNS>
+    <MOVERS>
+	<BackrubDD name="backrub" interface_distance_cutoff="8.0">
+	</BackrubDD>
+	<FastRelax name="relax" repeats="2"> 
+	</FastRelax>
+	<InterfaceAnalyzerMover name="analyze" packstat="0" pack_input="0" pack_separated="1" fixedchains="B" />
+    </MOVERS>
+    <PROTOCOLS>
+	<Add mover_name="backrub"/>
+	<Add mover_name="relax"/>
+	<Add mover_name="analyze"/>
+    </PROTOCOLS>
+    <OUTPUT scorefxn="REF2015"/>
+</ROSETTASCRIPTS>

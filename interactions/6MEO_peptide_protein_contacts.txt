@@ -1,0 +1,14 @@
+IH	1-6MEO_refined.A	585 	Asp585 	2-6MEO_refined.B	241	Arg241 	-6.05	3.29	*-	3	1	11.46		
+H	1-6MEO_refined.A	589 	Tyr589 	2-6MEO_refined.B	120	Cys120 	-2.40	2.81	-b	1	1	10.79		
+H	1-6MEO_refined.A	589 	Tyr589 	2-6MEO_refined.B	340	Pro340 	-0.90	3.05	bb	1	1	4.18		
+A	1-6MEO_refined.A	663 	Tyr663 	2-6MEO_refined.B	223	His223 	-0.50	4.80	--	1	1	5.20		
+IH	1-6MEO_refined.A	746 	Glu746 	2-6MEO_refined.B	219	Arg219 	-10.84	2.96	--	3	1	6.01		
+H	1-6MEO_refined.A	746 	Glu746 	2-6MEO_refined.B	221	Ser221 	-1.10	2.99	--	1	1	6.81		
+H	1-6MEO_refined.A	751 	Thr751 	2-6MEO_refined.B	219	Arg219 	-0.70	3.32	--	1	1	5.93		
+A	1-6MEO_refined.A	751 	Thr751 	2-6MEO_refined.B	231	Tyr231 	-0.60	3.83	--	1	1	19.30		
+H	1-6MEO_refined.A	754 	Ser754 	2-6MEO_refined.B	222	Ile222 	-1.80	3.16	bb	1	1	6.46		
+H	1-6MEO_refined.A	761 	Tyr761 	2-6MEO_refined.B	220	Lys220 	-0.50	3.20	-b	1	1	8.47		
+IH	1-6MEO_refined.A	825 	Tyr825 	2-6MEO_refined.B	228	Arg228 	-17.34	2.74	--	3	1	10.61		
+H	1-6MEO_refined.A	832 	Asn832 	2-6MEO_refined.B	228	Arg228 	-3.90	2.58	--	1	1	5.61		
+H	1-6MEO_refined.A	853 	Met853 	2-6MEO_refined.B	228	Arg228 	-0.50	3.58	--	1	1	3.65		
+I	1-6MEO_refined.A	857 	Glu857 	2-6MEO_refined.B	228	Arg228 	-9.72	3.01	--	2	1	5.69		

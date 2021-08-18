@@ -1,0 +1,11 @@
+H	1-5VBL_refined.A	21 	Tyr21 	2-5VBL_refined.B	10	Glu10 	-4.30	2.79	bb	1	1	6.57		
+H	1-5VBL_refined.A	23 	Asp23 	2-5VBL_refined.B	7	Pro7 	-0.60	3.41	-b	1	1	4.15		
+H	1-5VBL_refined.A	23 	Asp23 	2-5VBL_refined.B	8	R018 	-4.30	2.81	-b	1	1	5.00		
+I	1-5VBL_refined.A	92 	Asp92 	2-5VBL_refined.B	4	Arg4 	-3.80	3.56	--	2	1	5.10		
+I	1-5VBL_refined.A	174 	Glu174 	2-5VBL_refined.B	13	Lys13 	-0.65	3.93	--	1	1	2.04		
+H	1-5VBL_refined.A	175 	Asn175 	2-5VBL_refined.B	8	R018 	-0.60	3.10	b-	1	1	5.15		
+H	1-5VBL_refined.A	177 	Asn177 	2-5VBL_refined.B	5	Gln5 	-2.80	3.13	*-	2	1	21.55		
+H	1-5VBL_refined.A	264 	Tyr264 	2-5VBL_refined.B	17	02317 	-3.20	2.73	-b	1	1	8.11		
+IH	1-5VBL_refined.A	268 	Lys268 	2-5VBL_refined.B	17	02317 	-20.53	3.12	-*	4	1	9.67		
+H	1-5VBL_refined.A	271 	Tyr271 	2-5VBL_refined.B	13	Lys13 	-3.60	2.72	-b	1	1	9.74		
+I	1-5VBL_refined.A	284 	Asp284 	2-5VBL_refined.B	12	Lys12 	-2.92	3.27	--	1	1	5.45		
